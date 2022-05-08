@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;
+}
+/* #description {
+  overflow: hidden;
+}
+
+.hovers:hover {
+  opacity: 0.98;
+}
+
+.hovers:hover #description {
+  overflow: visible;
+} */
