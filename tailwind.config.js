@@ -22,6 +22,13 @@ module.exports = {
         primary: ["#97572A"],
         dark: ["#333"],
       },
+      screns: {
+        sm: ["490px"],
+        md: ["680px"],
+        lg: ["1024px"],
+        xl: ["1280px"],
+        xxl: ["1536px"],
+      },
     },
   },
   plugins: [],

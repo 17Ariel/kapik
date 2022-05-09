@@ -1,6 +1,6 @@
 # Title
 
-Capik
+Capik or Kapik
 
 ## Description
 

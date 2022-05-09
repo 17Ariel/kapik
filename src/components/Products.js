@@ -4,7 +4,7 @@ import Coffe from "./Coffe";
 const Products = () => {
   return (
     <div
-      className="h-90 flex flex-col items-center justify-center bg-white gap-8"
+      className="h-full py-4 lg:h-full xl:h-90 xxl:h-90 flex flex-col items-center justify-center bg-white gap-6"
       id="product"
     >
       <h1 className="text-3xl font-semibold">Featured Products</h1>
