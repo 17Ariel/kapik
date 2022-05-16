@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/kapik/static/css/main.d22915aa.css",
+    "main.js": "/kapik/static/js/main.5534a790.js",
+    "static/media/backgound.jpg": "/kapik/static/media/backgound.2ade7db4f8b0a2be4ab9.jpg",
+    "index.html": "/kapik/index.html",
+    "main.d22915aa.css.map": "/kapik/static/css/main.d22915aa.css.map",
+    "main.5534a790.js.map": "/kapik/static/js/main.5534a790.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d22915aa.css",
+    "static/js/main.5534a790.js"
+  ]
+}
