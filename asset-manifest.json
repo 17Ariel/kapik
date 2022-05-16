@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/kapik/static/css/main.d22915aa.css",
-    "main.js": "/kapik/static/js/main.5534a790.js",
+    "main.css": "/kapik/static/css/main.73343790.css",
+    "main.js": "/kapik/static/js/main.23e7fcc6.js",
+    "static/media/mocha.jpg": "/kapik/static/media/mocha.b8ad0587799479935375.jpg",
+    "static/media/capuccino.jpg": "/kapik/static/media/capuccino.de061369c1f4203e6d7f.jpg",
+    "static/media/cover.png": "/kapik/static/media/cover.bd59f1b1325559cfaba4.png",
     "static/media/backgound.jpg": "/kapik/static/media/backgound.2ade7db4f8b0a2be4ab9.jpg",
+    "static/media/barako.jpeg": "/kapik/static/media/barako.1c7c498148422cf42fc0.jpeg",
+    "static/media/espresso.jpeg": "/kapik/static/media/espresso.751fb9a4154f2741294c.jpeg",
     "index.html": "/kapik/index.html",
-    "main.d22915aa.css.map": "/kapik/static/css/main.d22915aa.css.map",
-    "main.5534a790.js.map": "/kapik/static/js/main.5534a790.js.map"
+    "main.73343790.css.map": "/kapik/static/css/main.73343790.css.map",
+    "main.23e7fcc6.js.map": "/kapik/static/js/main.23e7fcc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d22915aa.css",
-    "static/js/main.5534a790.js"
+    "static/css/main.73343790.css",
+    "static/js/main.23e7fcc6.js"
   ]
 }
