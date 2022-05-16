@@ -1,6 +1,5 @@
 import React from "react";
 import Coffe from "./Coffe";
-
 const Products = () => {
   return (
     <div

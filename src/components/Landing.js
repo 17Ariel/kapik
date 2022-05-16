@@ -1,17 +1,29 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { landingVariant } from "../utils/variants";
 
 const Landing = () => {
   return (
     <div
-      className="flex items-center flex-col bg-coverimg bg-cover bg-fixed bg-center h-90 opacity-95 text-white gap-2"
+      className="flex items-center flex-col bg-coverimg bg-cover bg-fixed bg-center h-screen opacity-95 text-white gap-2"
       id="home"
     >
-      <h1 className="mt-10 text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl xxl:text-5xl">
+      <motion.h1
+        className="mt-10 text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl xxl:text-5xl"
+        animate="visible"
+        variants={landingVariant}
+        initial="hidden"
+      >
         Welcome to Capik
-      </h1>
-      <p className="text-md md:text-md lg:text-xl xl:text-xl xxl:text-xl">
+      </motion.h1>
+      <motion.p
+        className="text-md md:text-md lg:text-xl xl:text-xl xxl:text-xl"
+        animate="visible"
+        variants={landingVariant}
+        initial="hidden"
+      >
         Where coffee is for everyone
-      </p>
+      </motion.p>
     </div>
   );
 };

@@ -9,7 +9,10 @@ module.exports = {
       height: {
         90: ["90vh"],
       },
-      width: {},
+      width: {
+        small: ["30rem"],
+        medium: ["32rem"],
+      },
       backgroundImage: {
         coverimg: "url('/public/img/backgound.jpg')",
         bgimg: "url('/public/img/cover.png')",
