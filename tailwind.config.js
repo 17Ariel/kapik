@@ -3,8 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ["Montserrat"],
-        segoe: ["Segoe Script"],
+        mont: ["Montserrat", "san-serif"],
       },
       height: {
         90: ["90vh"],
@@ -20,6 +19,7 @@ module.exports = {
         espresso: "url('/public/img/espresso.jpeg')",
         mocha: "url('/public/img/mocha.jpg')",
         barako: "url('/public/img/barako.jpeg')",
+        landing: "url('/src/assets/backgound.jpg')",
       },
       colors: {
         primary: ["#97572A"],

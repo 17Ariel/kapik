@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { aboutVariant } from "../utils/variants";
-
+import { aboutVariant, ImgVariant } from "../utils/variants";
+import cover from "../assets/cover.png";
 const About = () => {
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -21,9 +21,9 @@ const About = () => {
         id="about"
         animate={control}
         initial="hidden"
-        variants={aboutVariant}
-        src="/img/cover.png"
-        alt="coffee-bg"
+        variants={ImgVariant}
+        src={cover}
+        alt="cover-coffee"
         className=" h-36 w-36 sm:h-72 sm:w-72 lg:h-72 lg:w-72 xl:h-72 xl:w-72 xxl:h-72 xxl:w-72"
       />
       <div className="flex justify-center items-center flex-col h-72 w-72 sm:w-small md:w-medium lg:w-medium xl:w-medium xxl:w-medium gap-6">

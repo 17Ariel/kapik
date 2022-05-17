@@ -17,43 +17,47 @@ const Navbar = () => {
   return (
     <>
       <nav className="z-10 h-16 w-full sticky top-0 bg-primary-0 shadow-sm flex flex-row justify-center items-center gap-48 lg:gap-44 xl:gap-48 xxl:gap-48 text-white">
-        <h1 className="text-2xl text-slate-50 font-semibold font-segoe">
-          Capik
+        <h1 className="text-2xl text-slate-50 font-semibold font-mont">
+          CAPIK
         </h1>
         <ul className="flex-row hidden md:gap-16 lg:gap-16 xl:gap-20 xxl:gap-20 md:flex lg:flex xl:flex xxl:flex">
           <Link
             to="home"
-            className="px-4 py-2 cursor-pointer"
-            activeClass={"active" ? "bg-white text-primary-0" : ""}
+            className="p-2 cursor-pointer"
+            activeClass={"active" ? "border-b-2 border-white" : ""}
             spy={true}
             smooth={true}
+            offset={-200}
           >
             Home
           </Link>
           <Link
             to="product"
-            className="px-4 py-2 cursor-pointer"
-            activeClass={"active" ? "bg-white text-primary-0" : ""}
+            className="p-2 cursor-pointer"
+            activeClass={"active" ? "border-b-2 border-white" : ""}
             spy={true}
             smooth={true}
+            offset={-200}
           >
             Product
           </Link>
           <Link
             to="about"
-            className="px-4 py-2 cursor-pointer"
-            activeClass={"active" ? "bg-white text-primary-0" : ""}
+            className="p-2 cursor-pointer"
+            activeClass={"active" ? "border-b-2 border-white" : ""}
             spy={true}
             smooth={true}
+            offset={-200}
           >
             About
           </Link>
           <Link
             to="services"
-            className="px-4 py-2 cursor-pointer"
-            activeClass={"active" ? "bg-white text-primary-0" : ""}
+            className="p-2 cursor-pointer"
+            activeClass={"active" ? "border-b-2 border-white" : ""}
             spy={true}
             smooth={true}
+            offset={-200}
           >
             Services
           </Link>
@@ -69,45 +73,49 @@ const Navbar = () => {
       >
         <Link
           to="home"
-          className="px-4 py-2 cursor-pointer"
-          activeClass={"active" ? "bg-white text-primary-0" : ""}
+          className="p-2 cursor-pointer"
+          activeClass={"active" ? "border-b-2 border-white" : ""}
           spy={true}
           smooth={true}
           ref={anchor}
           onClick={menuAction}
+          offset={-200}
         >
           Home
         </Link>
         <Link
           to="product"
-          className="px-4 py-2 cursor-pointer"
-          activeClass={"active" ? "bg-white text-primary-0" : ""}
+          className="p-2 cursor-pointer"
+          activeClass={"active" ? "border-b-2 border-white" : ""}
           spy={true}
           smooth={true}
           ref={anchor}
           onClick={menuAction}
+          offset={-200}
         >
           Product
         </Link>
         <Link
           to="about"
-          className="px-4 py-2 cursor-pointer"
-          activeClass={"active" ? "bg-white text-primary-0" : ""}
+          className="p-2 cursor-pointer"
+          activeClass={"active" ? "border-b-2 border-white" : ""}
           spy={true}
           smooth={true}
           ref={anchor}
           onClick={menuAction}
+          offset={-200}
         >
           About
         </Link>
         <Link
           to="services"
-          className="px-4 py-2 cursor-pointer"
-          activeClass={"active" ? "bg-white text-primary-0" : ""}
+          className="p-2 cursor-pointer"
+          activeClass={"active" ? "border-b-2 border-white" : ""}
           spy={true}
           smooth={true}
           ref={anchor}
           onClick={menuAction}
+          offset={-200}
         >
           Services
         </Link>

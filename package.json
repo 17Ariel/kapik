@@ -1,5 +1,5 @@
 {
-  "homepage": "http://capik.github.io./kapik",
+  "homepage": "http://17Ariel.github.io./kapik",
   "name": "kapik",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,6 @@
     "react-scroll": "^1.8.7"
   },
   "scripts": {
-    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -1,7 +1,7 @@
 # Title
 
-Capik or Kapik
+Capik
 
 ## Description
 
-A Static website about coffee built using React & Tailwindcss
+A coffee shop website built using React & Tailwindcss

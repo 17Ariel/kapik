@@ -1,5 +1,10 @@
 import React from "react";
 import Coffe from "./Coffe";
+import capuccino from "../assets/capuccino.jpg";
+import mocha from "../assets/mocha.jpg";
+import baracko from "../assets/barako.jpeg";
+import espresso from "../assets/espresso.jpeg";
+
 const Products = () => {
   return (
     <div
@@ -8,10 +13,10 @@ const Products = () => {
     >
       <h1 className="text-3xl font-semibold">Featured Products</h1>
       <div className="flex flex-row gap-4 flex-wrap justify-center">
-        <Coffe bg="/img/capuccino.jpg" name="Capuccino" price="P50.00" />
-        <Coffe bg="/img/mocha.jpg" name="Mocha" price="P60.00" />
-        <Coffe bg="/img/barako.jpeg" name="Barako" price="P35.00" />
-        <Coffe bg="/img/espresso.jpeg" name="Espresso" price="P40.00" />
+        <Coffe bg={capuccino} name="Capuccino" price="P50.00" />
+        <Coffe bg={mocha} name="Mocha" price="P60.00" />
+        <Coffe bg={baracko} name="Barako" price="P35.00" />
+        <Coffe bg={espresso} name="Espresso" price="P40.00" />
       </div>
     </div>
   );
