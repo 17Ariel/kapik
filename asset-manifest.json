@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kapik/static/css/main.73343790.css",
-    "main.js": "/kapik/static/js/main.13beb7b1.js",
+    "main.css": "/kapik/static/css/main.63680890.css",
+    "main.js": "/kapik/static/js/main.01468380.js",
     "static/media/mocha.jpg": "/kapik/static/media/mocha.b8ad0587799479935375.jpg",
     "static/media/capuccino.jpg": "/kapik/static/media/capuccino.de061369c1f4203e6d7f.jpg",
     "static/media/cover.png": "/kapik/static/media/cover.bd59f1b1325559cfaba4.png",
@@ -9,11 +9,11 @@
     "static/media/barako.jpeg": "/kapik/static/media/barako.1c7c498148422cf42fc0.jpeg",
     "static/media/espresso.jpeg": "/kapik/static/media/espresso.751fb9a4154f2741294c.jpeg",
     "index.html": "/kapik/index.html",
-    "main.73343790.css.map": "/kapik/static/css/main.73343790.css.map",
-    "main.13beb7b1.js.map": "/kapik/static/js/main.13beb7b1.js.map"
+    "main.63680890.css.map": "/kapik/static/css/main.63680890.css.map",
+    "main.01468380.js.map": "/kapik/static/js/main.01468380.js.map"
   },
   "entrypoints": [
-    "static/css/main.73343790.css",
-    "static/js/main.13beb7b1.js"
+    "static/css/main.63680890.css",
+    "static/js/main.01468380.js"
   ]
 }
