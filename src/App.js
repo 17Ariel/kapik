@@ -7,7 +7,7 @@ import Products from "./components/Products";
 import Services from "./components/Services";
 const App = () => {
   return (
-    <div className="font-mont">
+    <div className="font-fira">
       <Navbar />
       <Landing />
       <Products />

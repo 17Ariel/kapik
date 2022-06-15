@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: ["Montserrat", "san-serif"],
+        fira: ["Fira Sans", "san-serif"],
       },
       height: {
         90: ["90vh"],

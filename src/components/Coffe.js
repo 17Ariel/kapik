@@ -21,8 +21,8 @@ const Coffe = ({ name, price, bg }) => {
       initial="hidden"
       variants={productVariant}
     >
-      <img src={bg} alt="coffee-img" />
-      <div className="flex justify-center items-center flex-col">
+      <img src={bg} alt="coffee-img" className="flex-1" />
+      <div className="flex justify-center items-center flex-col flex-1">
         <h1 className="text-xl font-semibold">{name}</h1>
         <p className="text-lg">{price}</p>
       </div>

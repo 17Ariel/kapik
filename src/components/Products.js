@@ -8,7 +8,7 @@ import espresso from "../assets/espresso.jpeg";
 const Products = () => {
   return (
     <div
-      className="h-full py-4 lg:h-full xl:h-90 xxl:h-90 flex flex-col items-center justify-center bg-white gap-6"
+      className="h-full py-4 lg:h-full xl:h-screen xxl:h-screen flex flex-col items-center justify-center bg-white gap-10"
       id="product"
     >
       <h1 className="text-3xl font-semibold">Featured Products</h1>
