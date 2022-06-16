@@ -19,7 +19,7 @@ const Landing = () => {
         initial="hidden"
         transition={{ duration: 2, delay: 1 }}
       >
-        Welcome to Capik
+        Welcome to Kapik
       </motion.h1>
       <motion.p
         className="text-md md:text-md lg:text-xl xl:text-xl xxl:text-xl"
