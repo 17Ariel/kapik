@@ -1,6 +1,6 @@
 # Kapik
 
-A coffee landing page
+A simple coffee landing page
 
 ## Instructions
 
